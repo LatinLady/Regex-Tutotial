@@ -19,6 +19,7 @@ Matching Email:
 + [Greedy and Lazy Match](#Greedy-And-Lazy-Match)
 + [Boundaries](#Boundaries)
 + [Back references](#Back-references)
++ [Reference](#Reference)
 
 ## Regex Components
 ***
@@ -66,11 +67,22 @@ Bracket expressions are used in regular expressions to specify a set of characte
 
 The characters that will match this bracket include lowercase letters (a-z), uppercase letters (A-Z), numbers (0-9), an underscore (_), a period (.), and a dash (-). These are the characters typically accepted in a wide range of programming languages and applications when defining variables or other identifiers. Other characters like !, @, #, $, %, ^, &, *, (, ), +, {, }, [, ], :, ;, <, >, ?, \, and | are usually not accepted in these brackets.
 
+### Greedy and Lazy Match
+The "greedy" quantifier matches as much text as possible, while the "lazy" one matches as little as possible. For example, they can both be used when matching an email address in a text, but the greedy quantifier will match the entire text, while the lazy quantifier will only match the part of the text necessary to locate the email address. This is useful when you want to make sure you only match the specific part of an email address and not the email subject line or sender's name that may follow.
+
+When using the greedy quantifier, a regular expression will match the longest string possible, even if that string contains characters that are not part of the pattern being searched for. For example, when trying to match an email address in a text, the greedy quantifier will match the entire text, even if only part of the text contains the email address. On the other hand, the lazy quantifier will try to match only the smallest possible portion of the text that contains the email address. This can be handy when trying to extract specific information like an email address from a large text.
+
+A lazy quantifier only matches the minimum needed to satisfy the pattern, not the entire string as a greedy quantifier does. As an example, in the context of email addresses a lazy quantifier might match only a portion of the local-part or domain-part of an address, stopping at the first character that does not match the pattern. This allows the user to find all matches with a minimal effort, and can save a lot of time when compared to using a greedy quantifier. On the other hand, it can also result in fewer matches, which may not be what you're searching for.
+
 ### Boundaries
 No, boundaries are not usually required for email validation. The "@" symbol functions as a boundary and divides the address into its NAME, DOMAIN, and EXTENSION parts. As long as the address contains an "@" symbol, any other boundaries are unnecessary. Email validation only needs to check if the address is composed of valid parts and contains an "@" symbol in order to be valid.
 
 ### Back-references
 Email validation does not require back references, as these are more typically used for HTML elements or for matching text between tags. Email validation can be performed simply by verifying the accuracy of the email address, such as making sure there is an @ symbol, a period and no invalid characters in the address. This is usually done using regex or search algorithms.
+
+### Reference 
++ Regex Cheat Sheet https://cheatography.com/davechild/cheat-sheets/regular-expressions/
++ Regex Buddy https://www.regular-expressions.info/
 
 
 ## Author
