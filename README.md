@@ -9,14 +9,14 @@ Matching Email:
 
 ## Table of Contents
 ***
-[Anchor]()
-[Quantifiers]()
-[OR Operator]()
-[Character Classes]()
-[Flags]()
-[Grouping and Capturing]()
-[Bracket Expressions]()
-[Greedy and Lazy Match]()
++ [Anchor]()
++ [Quantifiers]()
++ [OR Operator]()
++ [Character Classes]()
++ [Flags]()
++ [Grouping and Capturing]()
++ [Bracket Expressions]()
++ [Greedy and Lazy Match]()
 
 ## Regex Components
 ***
