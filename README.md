@@ -10,13 +10,13 @@ Matching Email:
 ## Table of Contents
 ***
 + [Anchor](#Anchor)
-+ [Quantifiers](# Quantifiers)
-+ [OR Operator](# OROperator)
-+ [Character Classes](# CharacterClasses)
-+ [Flags](# Flags)
-+ [Grouping and Capturing](# GroupingAndCapturing)
-+ [Bracket Expressions]()
-+ [Greedy and Lazy Match]()
++ [Quantifiers](#Quantifiers)
++ [OR Operator](#OROperator)
++ [Character Classes](#CharacterClasses)
++ [Flags](#Flags)
++ [Grouping and Capturing](#GroupingAndCapturing)
++ [Bracket Expressions](#BracketExpressions)
++ [Greedy and Lazy Match](#GreedyAndLazyMatch)
 
 ## Regex Components
 ***
