@@ -43,7 +43,7 @@ The | operator will match either of the patterns separated by it. For example, i
 ### Character Classes
 The \d within the second set of braces is a character class. Character classes are used in regular expressions to identify and match a range of characters within a given string. For example, the \d character class will match any single digit from 0 to 9. In the regex example provided, the \d character class is being used to search for a string which includes any single digit surrounded by two alphabetic characters.
 
-./^([a-zA-Z0-9_.-]+)@([\da-zA-Z.-]+).([a-zA-Z.]{2,6})$/
+**./^([a-zA-Z0-9_.-]+)@([\da-zA-Z.-]+).([a-zA-Z.]{2,6})$/
 
 
 The \D character class will match any character that is not a digit. \W will match any character that is not an alphanumeric character or underscore, and \S will match any character that is not a whitespace character. To use these character classes as inline modifiers, capital letter will be used, like \D, \W, and \S. The same is true for negating a character class, in which all cases must be capitalized.
@@ -54,8 +54,8 @@ The multi-line flag in a regex is useful because it allows the expression to be 
 ### Grouping and Capturing
 Paranteses are used for grouping is a way of annotating a regex expression to make it easier to read and understand. It uses parentheses to group together elements to allow for complex search and replacement operations. In this example, parentheses are used to group together meta characters, allowing literal characters to be searched for with greater precision. Grouping and capturing can also be used to isolate parts of a string so they can be back-referenced or replaced. This allows for more meaningful and powerful operations than would otherwise be possible.
 
-./^([a-zA-Z0-9_.-]+)@([\da-zA-Z.-]+).([a-zA-Z.]{2,6})$/
-.([a-zA-Z0-9_.-]+) and ([\da-zA-Z.-]+) and ([a-zA-Z.]{2,6}) are all groups found in the regex above; the groups are for the NAME, DOMAIN, and EXTENSION of the given email address.
+**./^([a-zA-Z0-9_.-]+)@([\da-zA-Z.-]+).([a-zA-Z.]{2,6})$/
+**.([a-zA-Z0-9_.-]+) and ([\da-zA-Z.-]+) and ([a-zA-Z.]{2,6}) are all groups found in the regex above; the groups are for the NAME, DOMAIN, and EXTENSION of the given email address.
 
 ### Bracket Expressions
 Bracket expressions are used in regular expressions to specify a set of characters to match. For example, in the regular expression used in this tutorial so far, the bracket expression [a-z] tells the regular expression to match any lowercase alphabetical character. Additionally, the expression [0-9] tells the regular expression to match any digit. Bracket expressions can also include ranges of character codes, such as [\u0000-\uFFFF] which matches any character in the Unicode character set.
