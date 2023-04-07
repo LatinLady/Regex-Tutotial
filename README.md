@@ -19,7 +19,6 @@ Matching Email:
 + [Greedy and Lazy Match](#Greedy-And-Lazy-Match)
 + [Boundaries](#Boundaries)
 + [Back references](#Back-references)
-+ [Reference](#Reference)
 + [Looks-ahead and look-behind](#Looks-Ahead-And-Look-Behind)
 
 ## Regex Components
@@ -80,10 +79,6 @@ No, boundaries are not usually required for email validation. The "@" symbol fun
 
 ### Back-references
 Email validation does not require back references, as these are more typically used for HTML elements or for matching text between tags. Email validation can be performed simply by verifying the accuracy of the email address, such as making sure there is an @ symbol, a period and no invalid characters in the address. This is usually done using regex or search algorithms.
-
-### Reference 
-+ Regex Cheat Sheet https://cheatography.com/davechild/cheat-sheets/regular-expressions/
-+ Regex Buddy https://www.regular-expressions.info/
 
 ### Looks-ahead and look-behind
 
