@@ -9,12 +9,12 @@ Matching Email:
 
 ## Table of Contents
 ***
-+ [Anchor](Anchor)
-+ [Quantifiers]()
-+ [OR Operator]()
-+ [Character Classes]()
-+ [Flags]()
-+ [Grouping and Capturing]()
++ [Anchor](# Anchor)
++ [Quantifiers](# Quantifiers)
++ [OR Operator](# OROperator)
++ [Character Classes](# CharacterClasses)
++ [Flags](# Flags)
++ [Grouping and Capturing](# GroupingAndCapturing)
 + [Bracket Expressions]()
 + [Greedy and Lazy Match]()
 
