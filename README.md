@@ -29,7 +29,8 @@ Matching Email:
 ### OR Operator
 
 
-## Author***
+## Author
+***
 This tutorial was created by Jemmy Blyden.
 
 Conatct me:
