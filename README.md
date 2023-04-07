@@ -20,7 +20,7 @@ Matching Email:
 + [Boundaries](#Boundaries)
 + [Back references](#Back-references)
 + [Reference](#Reference)
-+ [Look-ahead and look-behind](#Look-Ahead-And-Look-Behind)
++ [Looks-ahead and look-behind](#Looks-Ahead-And-Look-Behind)
 
 ## Regex Components
 ***
