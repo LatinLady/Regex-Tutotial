@@ -9,7 +9,7 @@ Matching Email:
 
 ## Table of Contents
 ***
-+ [Anchor](# Anchor)
++ [Anchor](#Anchor)
 + [Quantifiers](# Quantifiers)
 + [OR Operator](# OROperator)
 + [Character Classes](# CharacterClasses)
