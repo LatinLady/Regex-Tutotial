@@ -17,6 +17,8 @@ Matching Email:
 + [Grouping and Capturing](#Grouping-And-Capturing)
 + [Bracket Expressions](#Bracket-Expressions)
 + [Greedy and Lazy Match](#Greedy-And-Lazy-Match)
++ [Boundaries](#Boundaries)
++ [Back references](#Back-references)
 
 ## Regex Components
 ***
