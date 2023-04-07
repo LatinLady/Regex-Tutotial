@@ -20,6 +20,7 @@ Matching Email:
 + [Boundaries](#Boundaries)
 + [Back references](#Back-references)
 + [Reference](#Reference)
++ [Look-ahead and look-behind[(#Look-Ahead-And-Look-Behind)
 
 ## Regex Components
 ***
@@ -83,6 +84,10 @@ Email validation does not require back references, as these are more typically u
 ### Reference 
 + Regex Cheat Sheet https://cheatography.com/davechild/cheat-sheets/regular-expressions/
 + Regex Buddy https://www.regular-expressions.info/
+
+### Looks-ahead and look-behind
+
+A lookahead assertion looks ahead in the string to make sure that the pattern specified as patt follows its preceding pattern, but isn't actually part of the match. It won't include the pattern in the matched string, but it will require it to exist in order for the match to be successful. For example, if you want to make sure that a number is followed by an uppercase letter, you could use a lookahead assertion such as (?=\d[A-Z]). This assertion checks that the preceding pattern (a number) is followed by an uppercase letter, but doesn't include either of them in the matched string.
 
 
 ## Author
