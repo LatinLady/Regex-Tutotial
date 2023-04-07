@@ -21,12 +21,11 @@ Matching Email:
 
 ## Regex Components
 ***
+**Anchor**
 
-### Anchor
+**Quantifiers**
 
-### Quantifiers
-
-### OR Operator
+**OR Operator**
 
 
 ## Author
