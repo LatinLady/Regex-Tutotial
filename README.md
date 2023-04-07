@@ -33,4 +33,4 @@ Matching Email:
 This tutorial was created by Jemmy Blyden.
 
 Conatct me:
-[GitHub](http://LatinLadygithub.com
+[GitHub](http://LatinLadygithub.com)
