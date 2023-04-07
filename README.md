@@ -11,12 +11,12 @@ Matching Email:
 ***
 + [Anchor](#Anchor)
 + [Quantifiers](#Quantifiers)
-+ [OR Operator](#OR)
-+ [Character Classes](#Character)
++ [OR Operator](#OR-Operator)
++ [Character Classes](#Character-Classes)
 + [Flags](#Flags)
-+ [Grouping and Capturing](#Grouping)
-+ [Bracket Expressions](#Bracket)
-+ [Greedy and Lazy Match](#Greedy)
++ [Grouping and Capturing](#Grouping-And-Capturing)
++ [Bracket Expressions](#Bracket-Expressions)
++ [Greedy and Lazy Match](#Greedy-And-Lazy-Match)
 
 ## Regex Components
 ***
